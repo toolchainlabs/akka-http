@@ -1,0 +1,7 @@
+jvm_artifact(
+  name="caffeine",
+  group="com.github.ben-manes.caffeine",
+  artifact="caffeine",
+  version="2.9.2",
+)
+
