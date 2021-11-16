@@ -1,0 +1,32 @@
+[GLOBAL]
+pants_version = "2.9.0.dev0"
+
+backend_packages.add = [
+  "pants.backend.experimental.java",
+  "pants.backend.experimental.java.debug_goals",
+  "pants.backend.experimental.scala",
+  "pants.backend.experimental.scala.debug_goals",
+]
+
+pants_ignore = [
+  # Contains a directory named `build` which `tailor` misses.
+  '/scripts/',
+  # No cross-building support yet.
+  '/akka-http-core/src/main/scala-2.13-/',
+  '/akka-http-tests/src/test/scala-2.13-/',
+  # Is defined in `akka-http-core` as well.
+  'akka-http-tests/src/test/scala/akka/http/HashCodeCollider.scala',
+  # Not relevant.
+  '/project/',
+  '/docs/',
+]
+
+[jvm]
+default_resolve = 'default'
+resolves = '''{
+  "default": "3rdparty/jvm/default.lockfile",
+}'''
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "5DF14EDB-40DD-420C-AFB8-73142512452B"
