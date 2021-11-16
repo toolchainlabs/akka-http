@@ -1,7 +1,7 @@
 jvm_artifact(
   name="scalacheck",
   group="org.scalacheck",
-  artifact="scalacheck",
-  version=scalaCheckVersion,
+  artifact="scalacheck_2.13",
+  version="1.14.3",
 )
 

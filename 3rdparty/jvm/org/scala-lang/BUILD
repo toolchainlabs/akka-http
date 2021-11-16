@@ -2,6 +2,6 @@ jvm_artifact(
   name="scala-reflect",
   group="org.scala-lang",
   artifact="scala-reflect",
-  version=_,
+  version="2.13.6",
 )
 

@@ -1,7 +1,7 @@
 jvm_artifact(
   name="scalatest",
   group="org.scalatest",
-  artifact="scalatest",
-  version=scalaTestVersion,
+  artifact="scalatest_2.13",
+  version="3.1.4",
 )
 
