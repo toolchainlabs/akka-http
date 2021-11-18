@@ -20,6 +20,9 @@ import scala.collection.immutable
 import scala.reflect.macros.whitebox
 import akka.shapeless.HList
 
+// TODO: See https://github.com/pantsbuild/pants/issues/13664
+import scala.language.experimental.macros
+
 /**
  * An application needs to implement this interface to receive the result
  * of a dynamic parsing run.

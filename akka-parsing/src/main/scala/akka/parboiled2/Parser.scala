@@ -23,6 +23,9 @@ import scala.util.control.{ NoStackTrace, NonFatal }
 import akka.shapeless._
 import akka.parboiled2.support._
 
+// TODO: See https://github.com/pantsbuild/pants/issues/13664
+import scala.language.experimental.macros
+
 abstract class Parser(
   initialValueStackSize: Int = 16,
   maxValueStackSize:     Int = 1024) extends RuleDSL {

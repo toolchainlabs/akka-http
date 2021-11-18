@@ -7,6 +7,8 @@ package akka.macros
 import akka.annotation.InternalApi
 import akka.event.LoggingAdapter
 
+// TODO: See https://github.com/pantsbuild/pants/issues/13664
+import scala.language.experimental.macros
 import scala.reflect.macros.blackbox
 
 /**

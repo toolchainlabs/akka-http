@@ -22,6 +22,9 @@ import scala.collection.immutable
 import akka.parboiled2.support._
 import akka.shapeless.HList
 
+// TODO: See https://github.com/pantsbuild/pants/issues/13664
+import scala.language.experimental.macros
+
 sealed trait RuleX
 
 /**
