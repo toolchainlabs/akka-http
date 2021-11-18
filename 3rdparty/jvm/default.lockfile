@@ -72,235 +72,16 @@
     },
     {
         "coord": {
-            "group": "com.fasterxml.jackson.dataformat",
-            "artifact": "jackson-dataformat-xml",
-            "version": "2.10.5",
+            "group": "com.github.ghik",
+            "artifact": "silencer-lib_2.13.6",
+            "version": "1.7.7",
             "packaging": "jar"
         },
         "directDependencies": [
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-core",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.woodstox",
-                "artifact": "woodstox-core",
-                "version": "6.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.module",
-                "artifact": "jackson-module-jaxb-annotations",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-annotations",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.codehaus.woodstox",
-                "artifact": "stax2-api",
-                "version": "4.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-databind",
-                "version": "2.10.5.1",
-                "packaging": "jar"
-            }
-        ],
-        "dependencies": [
-            {
-                "group": "jakarta.activation",
-                "artifact": "jakarta.activation-api",
-                "version": "1.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-core",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.woodstox",
-                "artifact": "woodstox-core",
-                "version": "6.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "jakarta.xml.bind",
-                "artifact": "jakarta.xml.bind-api",
-                "version": "2.3.2",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.module",
-                "artifact": "jackson-module-jaxb-annotations",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-annotations",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.codehaus.woodstox",
-                "artifact": "stax2-api",
-                "version": "4.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-databind",
-                "version": "2.10.5.1",
-                "packaging": "jar"
-            }
-        ],
-        "file_name": "com.fasterxml.jackson.dataformat_jackson-dataformat-xml_2.10.5.jar",
-        "file_digest": {
-            "fingerprint": "e959cd5c81a35cf23cd8e55ee02af25da10f912dc0b3662e81d43c993b8e4471",
-            "serialized_bytes_length": 108604
-        }
-    },
-    {
-        "coord": {
-            "group": "com.fasterxml.jackson.module",
-            "artifact": "jackson-module-jaxb-annotations",
-            "version": "2.10.5",
-            "packaging": "jar"
-        },
-        "directDependencies": [
-            {
-                "group": "jakarta.activation",
-                "artifact": "jakarta.activation-api",
-                "version": "1.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-core",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "jakarta.xml.bind",
-                "artifact": "jakarta.xml.bind-api",
-                "version": "2.3.2",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-annotations",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-databind",
-                "version": "2.10.5.1",
-                "packaging": "jar"
-            }
-        ],
-        "dependencies": [
-            {
-                "group": "jakarta.activation",
-                "artifact": "jakarta.activation-api",
-                "version": "1.2.1",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-core",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "jakarta.xml.bind",
-                "artifact": "jakarta.xml.bind-api",
-                "version": "2.3.2",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-annotations",
-                "version": "2.10.5",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.fasterxml.jackson.core",
-                "artifact": "jackson-databind",
-                "version": "2.10.5.1",
-                "packaging": "jar"
-            }
-        ],
-        "file_name": "com.fasterxml.jackson.module_jackson-module-jaxb-annotations_2.10.5.jar",
-        "file_digest": {
-            "fingerprint": "994a0a510a35d55a869567807075736597da97e9d36ad1ebaff5e37def5a55d3",
-            "serialized_bytes_length": 34998
-        }
-    },
-    {
-        "coord": {
-            "group": "com.fasterxml.woodstox",
-            "artifact": "woodstox-core",
-            "version": "6.2.1",
-            "packaging": "jar"
-        },
-        "directDependencies": [
-            {
-                "group": "org.codehaus.woodstox",
-                "artifact": "stax2-api",
-                "version": "4.2.1",
-                "packaging": "jar"
-            }
-        ],
-        "dependencies": [
-            {
-                "group": "org.codehaus.woodstox",
-                "artifact": "stax2-api",
-                "version": "4.2.1",
-                "packaging": "jar"
-            }
-        ],
-        "file_name": "com.fasterxml.woodstox_woodstox-core_6.2.1.jar",
-        "file_digest": {
-            "fingerprint": "de70d0f1e971b662f5b5bf138a467b671fd50b2dbf7dea5c1cc3b33ad7d5d06b",
-            "serialized_bytes_length": 1584539
-        }
-    },
-    {
-        "coord": {
-            "group": "com.typesafe.akka",
-            "artifact": "akka-actor-testkit-typed_2.13",
-            "version": "2.5.32",
-            "packaging": "jar"
-        },
-        "directDependencies": [
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-actor-typed_2.13",
-                "version": "2.5.32",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-testkit_2.13",
-                "version": "2.5.32",
-                "packaging": "jar"
-            },
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -308,97 +89,14 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang.modules",
-                "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.typesafe",
-                "artifact": "config",
-                "version": "1.3.3",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-testkit_2.13",
-                "version": "2.5.32",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-actor-typed_2.13",
-                "version": "2.5.32",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-actor_2.13",
-                "version": "2.5.32",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
-        "file_name": "com.typesafe.akka_akka-actor-testkit-typed_2.13_2.5.32.jar",
+        "file_name": "com.github.ghik_silencer-lib_2.13.6_1.7.7.jar",
         "file_digest": {
-            "fingerprint": "88170df7eb1236998940dbe30beadc7e85bb2e122f5ad6168148756a4a323963",
-            "serialized_bytes_length": 251464
-        }
-    },
-    {
-        "coord": {
-            "group": "com.typesafe.akka",
-            "artifact": "akka-actor-typed_2.13",
-            "version": "2.5.32",
-            "packaging": "jar"
-        },
-        "directDependencies": [
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-actor_2.13",
-                "version": "2.5.32",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang",
-                "artifact": "scala-library",
-                "version": "2.13.3",
-                "packaging": "jar"
-            }
-        ],
-        "dependencies": [
-            {
-                "group": "com.typesafe.akka",
-                "artifact": "akka-actor_2.13",
-                "version": "2.5.32",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang",
-                "artifact": "scala-library",
-                "version": "2.13.3",
-                "packaging": "jar"
-            },
-            {
-                "group": "com.typesafe",
-                "artifact": "config",
-                "version": "1.3.3",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang.modules",
-                "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
-                "packaging": "jar"
-            }
-        ],
-        "file_name": "com.typesafe.akka_akka-actor-typed_2.13_2.5.32.jar",
-        "file_digest": {
-            "fingerprint": "53a804ff0d7ed7cb25ccbe414ec4e9f2bc586f859d520a1d76d41ea2e4f7e5b3",
-            "serialized_bytes_length": 657084
+            "fingerprint": "f0c3c56e349eaa7ec62c06fe6542cd8fd258cf85d58e5ee9b6ed5b1c32e9b8f9",
+            "serialized_bytes_length": 1490
         }
     },
     {
@@ -418,13 +116,13 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
                 "group": "org.scala-lang.modules",
                 "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
+                "version": "1.0.2",
                 "packaging": "jar"
             }
         ],
@@ -438,13 +136,13 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
                 "group": "org.scala-lang.modules",
                 "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
+                "version": "1.0.2",
                 "packaging": "jar"
             }
         ],
@@ -477,11 +175,17 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
         "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-java8-compat_2.13",
+                "version": "1.0.2",
+                "packaging": "jar"
+            },
             {
                 "group": "org.scala-lang.modules",
                 "artifact": "scala-parser-combinators_2.13",
@@ -503,19 +207,13 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
                 "group": "com.typesafe",
                 "artifact": "ssl-config-core_2.13",
                 "version": "0.3.8",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang.modules",
-                "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
                 "packaging": "jar"
             },
             {
@@ -590,7 +288,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -598,7 +296,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -631,7 +329,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -662,6 +360,12 @@
         "dependencies": [
             {
                 "group": "org.scala-lang.modules",
+                "artifact": "scala-java8-compat_2.13",
+                "version": "1.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
                 "artifact": "scala-parser-combinators_2.13",
                 "version": "1.1.2",
                 "packaging": "jar"
@@ -681,19 +385,13 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
                 "group": "com.typesafe",
                 "artifact": "ssl-config-core_2.13",
                 "version": "0.3.8",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang.modules",
-                "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
                 "packaging": "jar"
             },
             {
@@ -768,11 +466,17 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
         "dependencies": [
+            {
+                "group": "org.scala-lang.modules",
+                "artifact": "scala-java8-compat_2.13",
+                "version": "1.0.2",
+                "packaging": "jar"
+            },
             {
                 "group": "org.scala-lang.modules",
                 "artifact": "scala-parser-combinators_2.13",
@@ -782,19 +486,13 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
                 "group": "com.typesafe",
                 "artifact": "ssl-config-core_2.13",
                 "version": "0.3.8",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang.modules",
-                "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
                 "packaging": "jar"
             },
             {
@@ -851,7 +549,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -882,6 +580,12 @@
         "dependencies": [
             {
                 "group": "org.scala-lang.modules",
+                "artifact": "scala-java8-compat_2.13",
+                "version": "1.0.2",
+                "packaging": "jar"
+            },
+            {
+                "group": "org.scala-lang.modules",
                 "artifact": "scala-parser-combinators_2.13",
                 "version": "1.1.2",
                 "packaging": "jar"
@@ -889,19 +593,13 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
                 "group": "com.typesafe",
                 "artifact": "ssl-config-core_2.13",
                 "version": "0.3.8",
-                "packaging": "jar"
-            },
-            {
-                "group": "org.scala-lang.modules",
-                "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
                 "packaging": "jar"
             },
             {
@@ -952,7 +650,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -966,7 +664,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -978,7 +676,7 @@
             {
                 "group": "org.scala-lang.modules",
                 "artifact": "scala-java8-compat_2.13",
-                "version": "0.9.0",
+                "version": "1.0.2",
                 "packaging": "jar"
             }
         ],
@@ -1020,7 +718,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1040,7 +738,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1143,46 +841,31 @@
     },
     {
         "coord": {
-            "group": "jakarta.activation",
-            "artifact": "jakarta.activation-api",
-            "version": "1.2.1",
-            "packaging": "jar"
-        },
-        "directDependencies": [],
-        "dependencies": [],
-        "file_name": "jakarta.activation_jakarta.activation-api_1.2.1.jar",
-        "file_digest": {
-            "fingerprint": "8b0a0f52fa8b05c5431921a063ed866efaa41dadf2e3a7ee3e1961f2b0d9645b",
-            "serialized_bytes_length": 44399
-        }
-    },
-    {
-        "coord": {
-            "group": "jakarta.xml.bind",
-            "artifact": "jakarta.xml.bind-api",
-            "version": "2.3.2",
+            "group": "io.spray",
+            "artifact": "spray-json_2.13",
+            "version": "1.3.6",
             "packaging": "jar"
         },
         "directDependencies": [
             {
-                "group": "jakarta.activation",
-                "artifact": "jakarta.activation-api",
-                "version": "1.2.1",
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
         "dependencies": [
             {
-                "group": "jakarta.activation",
-                "artifact": "jakarta.activation-api",
-                "version": "1.2.1",
+                "group": "org.scala-lang",
+                "artifact": "scala-library",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
-        "file_name": "jakarta.xml.bind_jakarta.xml.bind-api_2.3.2.jar",
+        "file_name": "io.spray_spray-json_2.13_1.3.6.jar",
         "file_digest": {
-            "fingerprint": "69156304079bdeed9fc0ae3b39389f19b3cc4ba4443bc80508995394ead742ea",
-            "serialized_bytes_length": 115498
+            "fingerprint": "08b3b4b659e9be1828156ca3ac21f9c63d3aec344af04ee10ef1bda4aed171de",
+            "serialized_bytes_length": 297202
         }
     },
     {
@@ -1231,21 +914,6 @@
     },
     {
         "coord": {
-            "group": "org.codehaus.woodstox",
-            "artifact": "stax2-api",
-            "version": "4.2.1",
-            "packaging": "jar"
-        },
-        "directDependencies": [],
-        "dependencies": [],
-        "file_name": "org.codehaus.woodstox_stax2-api_4.2.1.jar",
-        "file_digest": {
-            "fingerprint": "678567e48b51a42c65c699f266539ad3d676d4b1a5b0ad7d89ece8b9d5772579",
-            "serialized_bytes_length": 195909
-        }
-    },
-    {
-        "coord": {
             "group": "org.hamcrest",
             "artifact": "hamcrest-core",
             "version": "1.3",
@@ -1261,21 +929,6 @@
     },
     {
         "coord": {
-            "group": "org.javassist",
-            "artifact": "javassist",
-            "version": "3.26.0-GA",
-            "packaging": "jar"
-        },
-        "directDependencies": [],
-        "dependencies": [],
-        "file_name": "org.javassist_javassist_3.26.0-GA.jar",
-        "file_digest": {
-            "fingerprint": "ca5625874ff0a34f2422173a511b33c225218c146a3c961b18940efff430462d",
-            "serialized_bytes_length": 782535
-        }
-    },
-    {
-        "coord": {
             "group": "org.portable-scala",
             "artifact": "portable-scala-reflect_2.13",
             "version": "1.0.0",
@@ -1285,7 +938,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1299,7 +952,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1332,45 +985,16 @@
     },
     {
         "coord": {
-            "group": "org.reflections",
-            "artifact": "reflections",
-            "version": "0.9.12",
-            "packaging": "jar"
-        },
-        "directDependencies": [
-            {
-                "group": "org.javassist",
-                "artifact": "javassist",
-                "version": "3.26.0-GA",
-                "packaging": "jar"
-            }
-        ],
-        "dependencies": [
-            {
-                "group": "org.javassist",
-                "artifact": "javassist",
-                "version": "3.26.0-GA",
-                "packaging": "jar"
-            }
-        ],
-        "file_name": "org.reflections_reflections_0.9.12.jar",
-        "file_digest": {
-            "fingerprint": "d168f58d32f2ae7ac5a8d5d9092adeee526c604b41125dcb45eea877960a99cf",
-            "serialized_bytes_length": 105848
-        }
-    },
-    {
-        "coord": {
             "group": "org.scala-lang.modules",
             "artifact": "scala-java8-compat_2.13",
-            "version": "0.9.0",
+            "version": "1.0.2",
             "packaging": "jar"
         },
         "directDependencies": [
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1378,14 +1002,14 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
-        "file_name": "org.scala-lang.modules_scala-java8-compat_2.13_0.9.0.jar",
+        "file_name": "org.scala-lang.modules_scala-java8-compat_2.13_1.0.2.jar",
         "file_digest": {
-            "fingerprint": "42636d2c772f20b2fa6e8be5b461564d7e51c067895b6689711de7d08d1f79cb",
-            "serialized_bytes_length": 640411
+            "fingerprint": "90d5b13656be93fb779b8d7c723efa2498a34af06273bb5204afb65f85a20c1b",
+            "serialized_bytes_length": 640088
         }
     },
     {
@@ -1399,7 +1023,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1407,7 +1031,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1428,7 +1052,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1436,7 +1060,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1450,15 +1074,15 @@
         "coord": {
             "group": "org.scala-lang",
             "artifact": "scala-library",
-            "version": "2.13.3",
+            "version": "2.13.6",
             "packaging": "jar"
         },
         "directDependencies": [],
         "dependencies": [],
-        "file_name": "org.scala-lang_scala-library_2.13.3.jar",
+        "file_name": "org.scala-lang_scala-library_2.13.6.jar",
         "file_digest": {
-            "fingerprint": "cb0eb1a33a6056b2e652f26923bfa361348ae72a2119da7b78dc1f673d1a93b1",
-            "serialized_bytes_length": 5895511
+            "fingerprint": "f19ed732e150d3537794fd3fe42ee18470a3f707efd499ecd05a99e727ff6c8a",
+            "serialized_bytes_length": 5955737
         }
     },
     {
@@ -1472,7 +1096,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1480,7 +1104,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -1516,7 +1140,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1530,7 +1154,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1557,7 +1181,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1571,7 +1195,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1598,7 +1222,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1624,7 +1248,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1669,7 +1293,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1695,7 +1319,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1734,7 +1358,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1772,7 +1396,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1823,7 +1447,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1867,7 +1491,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1912,7 +1536,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -1956,7 +1580,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -2013,7 +1637,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -2021,7 +1645,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             }
         ],
@@ -2042,7 +1666,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {
@@ -2068,7 +1692,7 @@
             {
                 "group": "org.scala-lang",
                 "artifact": "scala-library",
-                "version": "2.13.3",
+                "version": "2.13.6",
                 "packaging": "jar"
             },
             {

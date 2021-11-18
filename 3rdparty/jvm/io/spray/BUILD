@@ -3,5 +3,6 @@ jvm_artifact(
   group="io.spray",
   artifact="spray-json_2.13",
   version="1.3.6",
+  packages=["spray.json.**"],
 )
 
