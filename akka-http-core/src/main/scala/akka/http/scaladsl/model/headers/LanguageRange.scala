@@ -72,9 +72,6 @@ object Language {
       val tags = compoundTag.split('-')
       new Language(tags.head, immutable.Seq(tags.tail: _*))
     } else new Language(compoundTag, immutable.Seq.empty)
-  @pre213
-  def apply(primaryTag: String, subTags: String*): Language =
-    new Language(primaryTag, immutable.Seq(subTags: _*))
   @since213
   def apply(primaryTag: String, firstSubTag: String, otherSubTags: String*): Language =
     new Language(primaryTag, firstSubTag +: otherSubTags)

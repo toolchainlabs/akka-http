@@ -54,30 +54,9 @@ trait FormFieldDirectives extends FormFieldDirectivesInstances with ToNameRecept
    *
    * @group form
    */
-  @pre213
-  @deprecated("Use new `formField` overloads with FieldSpec parameters. Kept for binary compatibility", "10.2.0")
-  private[http] def formField(pdm: FieldMagnet): pdm.Out = formFields(pdm)
-
-  /**
-   * Extracts an HTTP form field from the request.
-   * Rejects the request if the defined form field matcher(s) don't match.
-   *
-   * @group form
-   */
   @since213
   @deprecated("Use new `formField` overloads with FieldSpec parameters. Kept for binary compatibility", "10.2.0")
   private[http] def formField(pdm: FieldMagnet): Directive[pdm.U] = formFields(pdm)
-
-  /**
-   * Extracts a number of HTTP form field from the request.
-   * Rejects the request if the defined form field matcher(s) don't match.
-   *
-   * @group form
-   */
-  @pre213
-  @deprecated("Use new `formField` overloads with FieldSpec parameters. Kept for binary compatibility", "10.2.0")
-  private[http] def formFields(pdm: FieldMagnet): pdm.Out =
-    pdm.convert(toStrictEntity(StrictForm.toStrictTimeout).wrap { pdm() })
 
   /**
    * Extracts a number of HTTP form field from the request.
