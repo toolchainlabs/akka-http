@@ -19,9 +19,9 @@ class ConfigSpec extends AkkaSpec(ConfigFactory.defaultReference(ActorSystem.fin
       val settings = system.settings
       val config = settings.config
 
-      config.getString("akka.http.version") should ===(Version.current)
+      config.getString("akka.http.version") should ===("TODO: `Version.current`")
 
-      val versionString = "akka-http/" + Version.current
+      val versionString = "akka-http/" + "TODO: `Version.current`"
       val serverSettings = ServerSettings(system)
       serverSettings.serverHeader should ===(Some(Server(versionString)))
 
