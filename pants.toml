@@ -8,6 +8,10 @@ backend_packages.add = [
   "pants.backend.experimental.scala.debug_goals",
 ]
 
+plugins = [
+  "toolchain.pants.plugin==0.15.0",
+]
+
 pants_ignore = [
   # Contains a directory named `build` which `tailor` misses.
   '/scripts/',
@@ -30,3 +34,6 @@ resolves = '''{
 [anonymous-telemetry]
 enabled = true
 repo_id = "5DF14EDB-40DD-420C-AFB8-73142512452B"
+
+[toolchain-setup]
+repo = "akka-http"
