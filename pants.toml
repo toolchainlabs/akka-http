@@ -1,15 +1,11 @@
 [GLOBAL]
-pants_version = "2.9.0.dev0"
+pants_version = "2.9.0"
 
 backend_packages.add = [
   "pants.backend.experimental.java",
   "pants.backend.experimental.java.debug_goals",
   "pants.backend.experimental.scala",
   "pants.backend.experimental.scala.debug_goals",
-]
-
-plugins = [
-  "toolchain.pants.plugin==0.15.0",
 ]
 
 pants_ignore = [
@@ -34,6 +30,3 @@ resolves = '''{
 [anonymous-telemetry]
 enabled = true
 repo_id = "5DF14EDB-40DD-420C-AFB8-73142512452B"
-
-[toolchain-setup]
-repo = "akka-http"
