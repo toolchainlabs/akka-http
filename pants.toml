@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.9.0"
+pants_version = "2.10.0rc2"
 
 backend_packages.add = [
   "pants.backend.experimental.java",
@@ -20,12 +20,6 @@ pants_ignore = [
   '/project/',
   '/docs/',
 ]
-
-[jvm]
-default_resolve = 'default'
-resolves = '''{
-  "default": "3rdparty/jvm/default.lockfile",
-}'''
 
 [anonymous-telemetry]
 enabled = true
